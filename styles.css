@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primmary-color:purple;
+    --primmary-color: #86198f;
     --dark-gray: #a1a1aa;
-    --ligt: #fee2e2;
+    --ligt: #ffe4e6;
+    --verylight: #fff1f2;
 }
 
 body {
@@ -107,6 +108,10 @@ hr {
     background-color:var(--ligt) ;
 }
 
+.vl {
+    background-color: var(--verylight);
+}
+
 .footer {
     background-color: var(--primmary-color);
     padding: 2rem 1rem;
@@ -123,3 +128,7 @@ hr {
     padding-inline-start: 0px;
 }
 
+.footer .footer-header {
+    font-weight: bolder;
+    font-size: large;
+}
